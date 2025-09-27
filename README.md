@@ -70,7 +70,7 @@ spring.data.mongodb.uri=mongodb://localhost:27017/taskdb
 ```
 mvn spring-boot:run
 ```
-###Running the Application
+## Running the Application
 
 **The API will be available at: http://localhost:8080**
 
