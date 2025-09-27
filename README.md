@@ -75,3 +75,31 @@ mvn spring-boot:run
 **The API will be available at: http://localhost:8080**
 
 **Test endpoints using Postman, Curl, or any HTTP client**
+## Usage Examples
+1.Create a Task
+```
+curl -X PUT http://localhost:8080/tasks \
+-H "Content-Type: application/json" \
+-d '{
+  "id": "123",
+  "name": "Print Hello",
+  "owner": "John Smith",
+  "command": "echo Hello World!"
+}'
+```
+2.Get All Tasks
+```
+curl http://localhost:8080/tasks
+```
+3.Execute Task
+```
+curl -X PUT http://localhost:8080/tasks/123/execute
+```
+4.Search Tasks by Name
+```
+curl http://localhost:8080/tasks/search?name=Hello
+```
+5.Delete Task
+```
+curl -X DELETE http://localhost:8080/tasks?id=123
+```
