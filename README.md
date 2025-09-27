@@ -208,5 +208,7 @@ curl -X DELETE http://localhost:8080/tasks?id=123
 *View of the task collection in MongoDB after operations.*  
 ![MongoDB_Output](Screenshots/Curl/MongoDB_Output.png)  
 
+### License
 
+**This project is licensed under the Kaiburr LLC License © 2025. All rights reserved.**
 
