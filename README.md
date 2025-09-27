@@ -11,7 +11,6 @@ A Java Spring Boot application that provides a REST API for managing and executi
 - [Setup and Installation](#setup-and-installation)
 - [Running the Application](#running-the-application)
 - [Usage Examples](#usage-examples)
-- [Sample Responses](#sample-responses)
 - [Screenshots](#screenshots)
 - [License](#license)
 
