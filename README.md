@@ -150,7 +150,6 @@ curl -X DELETE http://localhost:8080/tasks?id=123
 ![MongoDB_Output](Screenshots/Postman/MongoDB_Output.png)  
 
 ### Curl Screenshots
-## Screenshots
 
 <!-- CREATE -->
 *Insert a new task successfully.*  
