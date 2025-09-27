@@ -107,28 +107,46 @@ curl -X DELETE http://localhost:8080/tasks?id=123
 
 <!-- CREATE -->
 ![Put_Insert_New_Task](Screenshots/Postman/Put_Insert_New_Task.png)  
+*Insert a new task successfully.*
 
 <!-- READ -->
-![Get_All_Tasks](screenshots/Get_All_Tasks.png)  
-![Get_Task_By_Id](screenshots/Get_Task_By_Id.png)  
-![Get_Search_By_Keyword](screenshots/Get_Search_By_Keyword.png)  
+![Get_All_Tasks](Screenshots/Postman/Get_All_Tasks.png)  
+*Fetch all tasks from the database.*
+
+![Get_Task_By_Id](Screenshots/Postman/Get_Task_By_Id.png)  
+*Fetch a single task by its ID.*
+
+![Get_Search_By_Keyword](Screenshots/Postman/Get_Search_By_Keyword.png)  
+*Search tasks by a keyword in the task name.*
 
 <!-- UPDATE -->
-![Update_Existing_Task](screenshots/Update_Existing_Task.png)  
+![Update_Existing_Task](Screenshots/Postman/Update_Existing_Task.png)  
+*Update an existing task with new details.*
 
 <!-- DELETE -->
-![Delete_Existing_Task](screenshots/Delete_Existing_Task.png)  
-![Delete_Non_Existing_Task](screenshots/Delete_Non_Existing_Task.png)  
+![Delete_Existing_Task](Screenshots/Postman/Delete_Existing_Task.png)  
+*Delete an existing task successfully.*
+
+![Delete_Non_Existing_Task](Screenshots/Postman/Delete_Non_Existing_Task.png)  
+*Attempt to delete a task that does not exist.*
 
 <!-- EXECUTE -->
-![Put_Execute_Task](screenshots/Put_Execute_Task.png)  
-![Put_Execute_Multiple_Times](screenshots/Put_Execute_Multiple_Times.png)  
-![Put_Execute_Non_Existing_Task](screenshots/Put_Execute_Non_Existing_Task.png)  
+![Put_Execute_Task](Screenshots/Postman/Put_Execute_Task.png)  
+*Execute a valid task command once.*
+
+![Put_Execute_Multiple_Times](Screenshots/Postman/Put_Execute_Multiple_Times.png)  
+*Execute the same task multiple times and record executions.*
+
+![Put_Execute_Non_Existing_Task](Screenshots/Postman/Put_Execute_Non_Existing_Task.png)  
+*Attempt to execute a task that does not exist.*
 
 <!-- INVALID/UNSAFE COMMAND -->
-![Put_Unsafe_Command](screenshots/Put_Unsafe_Command.png)  
+![Put_Unsafe_Command](Screenshots/Postman/Put_Unsafe_Command.png)  
+*Attempt to insert a task with an unsafe/malicious command.*
 
 <!-- DATABASE VIEW -->
-![MongoDB_Output](screenshots/MongoDB_Output.png)  
+![MongoDB_Output](Screenshots/Postman/MongoDB_Output.png)  
+*View of the task collection in MongoDB after operations.*
+
 
 
