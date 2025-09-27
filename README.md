@@ -177,7 +177,7 @@ curl -X DELETE http://localhost:8080/tasks?id=123
 <!-- UPDATE -->
 #### UPDATE
 *Update an existing task with new details.*  
-![Update_Existing_Task](Screenshots/Curl/Update_Existing_Task.png)  
+![Update_Existing_Task](Screenshots/Curl/Put_Update_Existing_Task.png)  
 
 <!-- DELETE -->
 #### DELETE
