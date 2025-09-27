@@ -107,10 +107,12 @@ curl -X DELETE http://localhost:8080/tasks?id=123
 ## Screenshots
 ### Postman Screenshots
 <!-- CREATE -->
+#### CREATE
 *Insert a new task successfully.*  
 ![Put_Insert_New_Task](Screenshots/Postman/Put_Insert_New_Task.png)  
 
 <!-- READ -->
+#### READ
 *Fetch all tasks from the database.*  
 ![Get_All_Tasks](Screenshots/Postman/Get_All_Tasks.png)  
 
@@ -121,10 +123,12 @@ curl -X DELETE http://localhost:8080/tasks?id=123
 ![Get_Search_By_Keyword](Screenshots/Postman/Get_Search_By_Keyword.png)  
 
 <!-- UPDATE -->
+#### UPDATE
 *Update an existing task with new details.*  
 ![Update_Existing_Task](Screenshots/Postman/Update_Existing_Task.png)  
 
 <!-- DELETE -->
+#### DELETE
 *Delete an existing task successfully.*  
 ![Delete_Existing_Task](Screenshots/Postman/Delete_Existing_Task.png)  
 
@@ -132,6 +136,7 @@ curl -X DELETE http://localhost:8080/tasks?id=123
 ![Delete_Non_Existing_Task](Screenshots/Postman/Delete_Non_Existing_Task.png)  
 
 <!-- EXECUTE -->
+#### EXECUTE
 *Execute a valid task command once.*  
 ![Put_Execute_Task](Screenshots/Postman/Put_Execute_Task.png)  
 
@@ -142,20 +147,24 @@ curl -X DELETE http://localhost:8080/tasks?id=123
 ![Put_Execute_Non_Existing_Task](Screenshots/Postman/Put_Execute_Non_Existing_Task.png)  
 
 <!-- INVALID/UNSAFE COMMAND -->
+#### INVALID/UNSAFE COMMAND
 *Attempt to insert a task with an unsafe/malicious command.*  
 ![Put_Unsafe_Command](Screenshots/Postman/Put_Unsafe_Command.png)  
 
 <!-- DATABASE VIEW -->
+#### DATABASE VIEW
 *View of the task collection in MongoDB after operations.*  
 ![MongoDB_Output](Screenshots/Postman/MongoDB_Output.png)  
 
 ### Curl Screenshots
 
 <!-- CREATE -->
+#### CREATE
 *Insert a new task successfully.*  
 ![Put_Insert_New_Task](Screenshots/Curl/Put_Insert_New_Task.png)  
 
 <!-- READ -->
+#### READ
 *Fetch all tasks from the database.*  
 ![Get_All_Tasks](Screenshots/Curl/Get_All_Tasks.png)  
 
@@ -166,10 +175,12 @@ curl -X DELETE http://localhost:8080/tasks?id=123
 ![Get_Search_By_Keyword](Screenshots/Curl/Get_Search_By_Keyword.png)  
 
 <!-- UPDATE -->
+#### UPDATE
 *Update an existing task with new details.*  
 ![Update_Existing_Task](Screenshots/Curl/Update_Existing_Task.png)  
 
 <!-- DELETE -->
+#### DELETE
 *Delete an existing task successfully.*  
 ![Delete_Existing_Task](Screenshots/Curl/Delete_Existing_Task.png)  
 
@@ -177,6 +188,7 @@ curl -X DELETE http://localhost:8080/tasks?id=123
 ![Delete_Non_Existing_Task](Screenshots/Curl/Delete_Non_Existing_Task.png)  
 
 <!-- EXECUTE -->
+#### EXECUTE
 *Execute a valid task command once.*  
 ![Put_Execute_Task](Screenshots/Curl/Put_Execute_Task.png)  
 
@@ -187,10 +199,12 @@ curl -X DELETE http://localhost:8080/tasks?id=123
 ![Put_Execute_Non_Existing_Task](Screenshots/Curl/Put_Execute_Non_Existing_Task.png)  
 
 <!-- INVALID/UNSAFE COMMAND -->
+#### INVALID/UNSAFE COMMAND
 *Attempt to insert a task with an unsafe/malicious command.*  
 ![Put_Unsafe_Command](Screenshots/Curl/Put_Unsafe_Command.png)  
 
 <!-- DATABASE VIEW -->
+#### DATABASE VIEW
 *View of the task collection in MongoDB after operations.*  
 ![MongoDB_Output](Screenshots/Curl/MongoDB_Output.png)  
 
