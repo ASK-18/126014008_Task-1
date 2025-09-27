@@ -106,7 +106,7 @@ curl -X DELETE http://localhost:8080/tasks?id=123
 ## Screenshots
 
 <!-- CREATE -->
-![Put_Insert_New_Task](screenshots/Put_Insert_New_Task.png)  
+![Put_Insert_New_Task](Screenshots/Postman/Put_Insert_New_Task.png)  
 
 <!-- READ -->
 ![Get_All_Tasks](screenshots/Get_All_Tasks.png)  
