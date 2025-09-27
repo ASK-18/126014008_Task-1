@@ -105,20 +105,30 @@ curl -X DELETE http://localhost:8080/tasks?id=123
 ```
 ## Screenshots
 
-Below are the example screenshots of API requests and responses using Postman / Curl / MongoDB:
+<!-- CREATE -->
+![Put_Insert_New_Task](screenshots/Put_Insert_New_Task.png)  
 
-| Screenshot | Description |
-|------------|-------------|
-| `Delete_Non_Existing_Task.png` | Attempt to delete a task that does not exist |
-| `Delete_Existing_Task.png` | Successfully deleted an existing task |
-| `MongoDB_Output.png` | View of the task collection in MongoDB |
-| `Put_Execute_Multiple_Times.png` | Executing the same task multiple times |
-| `Put_Execute_Non_Existing_Task.png` | Attempt to execute a non-existing task |
-| `Update_Existing_Task.png` | Updating an existing task with new data |
-| `Get_Search_By_Keyword.png` | Searching tasks by a keyword in task name |
-| `Get_Task_By_Id.png` | Retrieving a task by its ID |
-| `Get_All_Tasks.png` | Retrieving all tasks |
-| `Put_Unsafe_Command.png` | Attempt to insert a task with unsafe/malicious command |
-| `Put_Execute_Task.png` | Executing a valid task |
-| `Put_Insert_New_Task.png` | Inserting a new task successfully |
+<!-- READ -->
+![Get_All_Tasks](screenshots/Get_All_Tasks.png)  
+![Get_Task_By_Id](screenshots/Get_Task_By_Id.png)  
+![Get_Search_By_Keyword](screenshots/Get_Search_By_Keyword.png)  
+
+<!-- UPDATE -->
+![Update_Existing_Task](screenshots/Update_Existing_Task.png)  
+
+<!-- DELETE -->
+![Delete_Existing_Task](screenshots/Delete_Existing_Task.png)  
+![Delete_Non_Existing_Task](screenshots/Delete_Non_Existing_Task.png)  
+
+<!-- EXECUTE -->
+![Put_Execute_Task](screenshots/Put_Execute_Task.png)  
+![Put_Execute_Multiple_Times](screenshots/Put_Execute_Multiple_Times.png)  
+![Put_Execute_Non_Existing_Task](screenshots/Put_Execute_Non_Existing_Task.png)  
+
+<!-- INVALID/UNSAFE COMMAND -->
+![Put_Unsafe_Command](screenshots/Put_Unsafe_Command.png)  
+
+<!-- DATABASE VIEW -->
+![MongoDB_Output](screenshots/MongoDB_Output.png)  
+
 
