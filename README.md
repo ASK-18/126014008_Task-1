@@ -41,7 +41,7 @@ This Java application provides a REST API for managing "task" objects. Each task
 - **Containerization:** Docker (optional for Kubernetes pods)
 
 ---
-###Setup and Installation
+## Setup and Installation
 
 1.Clone the repository
 ```
